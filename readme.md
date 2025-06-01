@@ -19,6 +19,8 @@
   - Pythonの実行ファイルパスの取得
       - (.venv) の状態で `which python`
   - `npx @modelcontextprotocol/inspector [Pythonの実行ファイルパス] [pythonのファイルパス]`
+- mcp コマンド
+  - `mcp dev [pythonのファイルパス]`
 
 ## command
 - mcp サーバー実行
