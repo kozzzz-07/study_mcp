@@ -5,11 +5,12 @@
   - pip install -r requirements.txt 
 - apikey
   - https://aistudio.google.com/apikey
-  - set GEMINI_API_KEY
+  - set your GEMINI_API_KEY
 
 
 ## docs
 - https://github.com/modelcontextprotocol/python-sdk
+- https://github.com/langchain-ai/langchain-mcp-adapters
 
 
 ## debug
