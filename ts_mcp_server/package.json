@@ -1,0 +1,23 @@
+{
+  "name": "btc-binance-mpc",
+  "version": "0.0.1",
+  "description": "MCP server that provides Binance price data",
+  "main": "dist/binance_mcp.js",
+  "bin": "dist/binance_mcp.js",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "scripts": {
+    "prod-build": "bun build ./src/binance_mcp.ts --outdir ./dist --target node"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "zod": "^3.25.53"
+  }
+}

@@ -40,3 +40,24 @@
   }
 }
 ```
+
+- ts_mcp_server
+- `which bun`
+- claudeと cursor
+```json
+"binance-ts-mcp": {
+  "command": "/your-path/.bun/bin/bun",
+  "args": ["/your-path/learn-mcp/ts_mcp_server/src/binance_mcp.ts"]
+}
+```
+
+- cursorだと以下でも上手くいった
+```json
+"binance-ts-mcp": {
+  "command": "bun",
+  "args": [
+    "run",
+    "/your-path/learn-mcp/ts_mcp_server/src/binance_mcp.ts"
+  ]
+}
+````
