@@ -50,8 +50,8 @@
 ```
 
 - ts_mcp_server
-- `which bun`
-- claudeと cursor
+- `which bun`でcommandのパス取得
+- claudeとcursor
 ```json
 "binance-ts-mcp": {
   "command": "/your-path/.bun/bin/bun",
@@ -68,4 +68,8 @@
     "/your-path/learn-mcp/ts_mcp_server/src/binance_mcp.ts"
   ]
 }
-````
+```
+
+- npm経由
+  - https://www.npmjs.com/package/btc-binance-mpc?activeTab=readme
+

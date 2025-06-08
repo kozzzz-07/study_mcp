@@ -11,7 +11,7 @@ your MCP client settings json.
 {
   "mcpServers":{
     "btc-binance-mpc": {
-      "command": "/npx",
+      "command": "npx",
       "args": ["btc-binance-mpc"]
     }
   }
