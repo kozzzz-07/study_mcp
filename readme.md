@@ -12,6 +12,9 @@
 - https://github.com/modelcontextprotocol/python-sdk
 - https://github.com/langchain-ai/langchain-mcp-adapters
 - https://developers.cloudflare.com/agents/guides/remote-mcp-server/
+- https://blog.cloudflare.com/remote-model-context-protocol-servers-mcp/
+- https://modelcontextprotocol.io/specification/2025-03-26
+- https://github.com/cloudflare/ai/tree/main/demos/remote-mcp-github-oauth
 
 
 ## debug
@@ -34,6 +37,7 @@
 ## command
 - mcp サーバー実行
   - mcp run --transport [stdio|sse|streamable-http]
+- 
 
 ## mcp settings
 ```json

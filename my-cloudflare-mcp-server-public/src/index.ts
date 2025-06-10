@@ -32,7 +32,8 @@ export class MyMCP extends McpAgent {
       { symbol: z.string() },
       async ({ symbol }) => {
         const resolvedSymbol = getSymbolFromName(symbol);
-        const url = `https://api.binance.com/api/v3/ticker/price?symbol=${resolvedSymbol}`;
+        // const url = `https://api.binance.com/api/v3/ticker/price?symbol=${resolvedSymbol}`;
+        const url = `https://mcp-course.s3.eu-central-1.amazonaws.com/public/hard-coded-price.json`;
         const response = await fetch(url);
         if (!response.ok) {
           const errorText = await response.text();

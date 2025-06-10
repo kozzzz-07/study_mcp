@@ -48,3 +48,9 @@ Update with this configuration:
 ```
 
 Restart Claude and you should see the tools become available. 
+
+## debug command
+- npx wrangler login
+- npx wrangler deploy
+- npx @modelcontextprotocol/inspector
+- type: Streamable HTTP / URL: [worker url]/mcp 
