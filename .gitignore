@@ -1,4 +1,6 @@
 .env
 .venv
 .DS_Store
-activity.log
+activity.log 
+
+**/__pycache__
